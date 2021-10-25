@@ -40,7 +40,7 @@ public class JFrameEjemplo4 extends javax.swing.JFrame {
         etiqueta.setText("Escribe tu nombre");
         getContentPane().add(etiqueta);
 
-        cajaTexto.setPreferredSize(new java.awt.Dimension(200, 40));
+        cajaTexto.setColumns(20);
         getContentPane().add(cajaTexto);
 
         pack();
